@@ -17,4 +17,9 @@ public class TestServiceImpl implements TestService {
 
         return testMapper.test(Integer.parseInt(test));
     }
+
+    @Override
+    public String testThread(String test) {
+        return test;
+    }
 }
